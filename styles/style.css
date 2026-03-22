@@ -132,7 +132,7 @@
   /* Special Text Colours */
   --color-text-holding-title: #ebedf0;
   --color-text-project-category: #ffffff;
-  --color-text-project-description: #222;
+  --color-text-project-description: #effbec;
   --color-text-project-sidebar: #222;
   --color-text-project-title: #5200ff;
   --color-text-work-grid-title: #ffffff;
@@ -144,12 +144,12 @@
   --color-nav-link: #5bebdc;
   --color-nav-link-hover: #effbec;
   --color-nav-arrow: #5bebdc;
-  --color-nav-arrow-hover: #000;
+  --color-nav-arrow-hover: #effbec;
   --color-nav-arrow-stroke: #5bebdc;
   --color-nav-arrow-stroke-hover: #000;
   /* Components */
   --color-bg-full-width: #2c143d;
-  --color-bg-project-description: #f5f5f5;
+  --color-bg-project-description: #14183b;
   --color-bg-sidebar-project: orangered;
   --color-bg-sidebar-work: lemonchiffon;
   --color-gradient-hero: linear-gradient(90deg, #ff00ff, #00ffff);
@@ -582,6 +582,8 @@ sup {
   font-size: 2.875rem;
   color: var(--color-text-work-grid-title);
   text-wrap: balance;
+  text-align: center;
+  line-height: 2.5rem;
 }
 
 /* 🏷️ Project category label — displays the type or role of the project */
