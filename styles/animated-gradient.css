@@ -5,15 +5,15 @@
     #2c143d,
     #2e5d8b,
     #62509f,
-    #4c4081,
-    #4b2e8a
+    #4b2e8a,
+    #4c4081
   );
 }
 
 .gradient-animation {
-  background-size: 600%;
+  background-size: 900%;
   background-image: var(--gradient);
-  animation: bg-animation 90s infinite alternate;
+  animation: bg-animation 30s infinite alternate;
 }
 
 @keyframes bg-animation {
