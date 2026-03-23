@@ -703,6 +703,8 @@ a.nav-link-primary:hover {
   min-height: 80vh; /* Takes up most of the screen height */
   display: flex;
   flex-direction: column;
+  padding: 2rem;
+  padding-top: 1rem;
 }
 .hero-header {
   min-height: 6rem; /* Space reserved for logo + nav */
