@@ -121,8 +121,8 @@
   --color-highlight: #4c4081;
   --color-fallback: #5bebdc; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
-  --color-bg: #14183b;
-  --color-bg-about: #14183b;
+  --color-bg: #101125;
+  --color-bg-about: #101125;
   --color-bg-footer: #0d061a;
   --color-bg-holding-page: rgba(82, 0, 255, 0.6);
   /* Headings */
@@ -152,7 +152,7 @@
   --color-nav-arrow-stroke-hover: #000;
   /* Components */
   --color-bg-full-width: #2c143d;
-  --color-bg-project-description: #14183b;
+  --color-bg-project-description: #101125;
   --color-bg-sidebar-project: orangered;
   --color-bg-sidebar-work: lemonchiffon;
   --color-gradient-hero: linear-gradient(90deg, #effbec, #5bebdc, #9673ff);
@@ -512,7 +512,8 @@ p,
   font-family: var(--font-family-body);
   line-height: 1.3;
   margin-bottom: 1rem;
-  word-spacing: 0.2rem;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
   color: var(--color-text-primary);
 }
 
