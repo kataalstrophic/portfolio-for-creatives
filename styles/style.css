@@ -1579,6 +1579,7 @@ to keep your styles reusable and consistent.
   /* Column styles for two-column and four-column layouts (desktop) */
   .col-2 {
     width: 50%;
+    padding: var(--padding-medium);
   }
   .col-4 {
     width: 25%;
