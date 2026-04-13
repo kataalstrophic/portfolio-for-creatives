@@ -582,7 +582,6 @@ sup {
   background: var(--color-gradient-hero);
   -webkit-background-clip: text;
   color: transparent;
-  font-weight: bold;
 }
 
 /* 📂 Project grid title — used in grid view (like a portfolio gallery) */

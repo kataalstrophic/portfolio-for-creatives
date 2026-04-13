@@ -11,7 +11,7 @@
 }
 
 .stroke-shadow {
-  color: #ffffff;
+  color: #ff0505;
   text-shadow:
     -2px 0 var(--color-accent-primary),
     0 -2px var(--color-accent-primary),
