@@ -714,7 +714,6 @@ a.nav-link-primary:hover {
   padding: 2rem;
   padding-top: 1rem;
   background-image: url(/assets/branding-images/animated-hero-background-darker.svg);
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
