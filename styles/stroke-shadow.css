@@ -12,7 +12,16 @@
 
 .stroke-shadow {
   color: #ffffff;
-  text-shadow: -2px 0 var(--color-accent-primary), 0 -2px var(--color-accent-primary), 2px 0 var(--color-accent-primary), 0 2px var(--color-accent-primary), 2px 2px var(--color-accent-primary), -2px -2px var(--color-accent-primary), -2px 2px var(--color-accent-primary), 2px -2px var(--color-accent-primary), 6px 6px var(--color-shadow-stroke);
+  text-shadow:
+    -2px 0 var(--color-accent-primary),
+    0 -2px var(--color-accent-primary),
+    2px 0 var(--color-accent-primary),
+    0 2px var(--color-accent-primary),
+    2px 2px var(--color-accent-primary),
+    -2px -2px var(--color-accent-primary),
+    -2px 2px var(--color-accent-primary),
+    2px -2px var(--color-accent-primary),
+    6px 6px var(--color-shadow-stroke);
 }
 
 .halftone {
@@ -20,7 +29,8 @@
 }
 .halftone:after {
   content: "Hello";
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAHElEQVQYV2NUVFT8f//+fUYGBgYGMAEDcA5IBQCKJQVmn76DhAAAAABJRU5ErkJggg==") repeat;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAHElEQVQYV2NUVFT8f//+fUYGBgYGMAEDcA5IBQCKJQVmn76DhAAAAABJRU5ErkJggg==")
+    repeat;
   font-size: 15vw;
   letter-spacing: 6px;
   left: calc(50% + 6px);
