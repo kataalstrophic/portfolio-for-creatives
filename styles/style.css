@@ -38,11 +38,11 @@
 /* DotGothic16 (body text) */
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Jersey+20&display=swap");
 
-/* VT323 Font*/
-@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
-
 /* Ubuntu Mono*/
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* Zen Dots */
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 
 /*
 
@@ -108,10 +108,10 @@
 
 :root {
   /* Typography */
-  --font-family-body: "Ubuntu Mono", sans-serif;
-  --font-family-subheading: "VT323", sans-serif;
-  --font-family-heading: "Jersey 20", serif;
-  --font-family-project-title: "Jersey 20", serif;
+  --font-family-body: "Ubuntu Mono", monospace;
+  --font-family-subheading: "Ubuntu Mono";
+  --font-family-heading: "Zen Dots", serif;
+  --font-family-project-title: "Zen Dots", serif;
   /* Core Colours */
   --color-text-primary: #effbec;
   --color-text-secondary: #e5f1f7;
@@ -121,17 +121,17 @@
   --color-highlight: #4c4081;
   --color-fallback: #5bebdc; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
-  --color-bg: #101125;
-  --color-bg-about: #101125;
+  --color-bg: #0d061a;
+  --color-bg-about: #0d061a;
   --color-bg-footer: #0d061a;
   --color-bg-holding-page: rgba(82, 0, 255, 0.6);
   /* Headings */
-  --h1-color: #effbec;
-  --h2-color: #e5f1f7;
-  --h3-color: #a9addd;
-  --h4-color: #949bd0;
-  --h5-color: #949bd0;
-  --h6-color: #949bd0;
+  --h1-color: #e5f1f7;
+  --h2-color: #bbf2e4;
+  --h3-color: #e5f1f7;
+  --h4-color: #e5f1f7;
+  --h5-color: #e5f1f7;
+  --h6-color: #e5f1f7;
   /* Special Text Colours */
   --color-text-holding-title: #ebedf0;
   --color-text-project-category: #ffffff;
@@ -472,6 +472,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+  font-weight: 700;
   font-family: var(--font-family-subheading);
   margin-bottom: 1rem;
   line-height: 1.2;
@@ -480,6 +481,7 @@ h3 {
 
 h4 {
   font-size: 1.4rem;
+  font-weight: 700;
   font-family: var(--font-family-subheading);
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -488,6 +490,7 @@ h4 {
 
 h5 {
   font-size: 1.1rem;
+  font-weight: 700;
   font-family: var(--font-family-subheading);
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -496,6 +499,7 @@ h5 {
 
 h6 {
   font-size: 1rem;
+  font-weight: 500;
   line-height: 1.2;
   margin-bottom: 1rem;
   color: var(--h6-color);
@@ -586,17 +590,19 @@ sup {
 
 /* 📂 Project grid title — used in grid view (like a portfolio gallery) */
 .work-grid-project-title {
-  font-size: 2.875rem;
   color: var(--color-text-work-grid-title);
   text-wrap: balance;
   text-align: center;
-  line-height: 2.5rem;
-  margin-bottom: 0.5rem;
+  line-height: 2rem;
+  margin: 0.5rem;
 }
 
 /* 🏷️ Project category label — displays the type or role of the project */
 .work-grid-project-category {
+  font-weight: 700;
   color: var(--color-text-project-category);
+  text-align: center;
+  line-height: 1.5rem;
 }
 
 /*
@@ -652,6 +658,7 @@ a.nav-link-primary {
   color: var(--color-nav-link);
   font-family: var(--font-family-subheading);
   font-size: 2rem;
+  font-weight: 700;
 }
 a.nav-link-primary:hover {
   color: var(--color-nav-link-hover);
@@ -708,7 +715,7 @@ a.nav-link-primary:hover {
 
 .hero {
   width: 100%;
-  min-height: 80vh; /* Takes up most of the screen height */
+  min-height: 90vh; /* Takes up most of the screen height */
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -738,7 +745,8 @@ a.nav-link-primary:hover {
 }
 
 .nav-branding-logo {
-  width: 3rem;
+  width: 4.5rem;
+  padding-bottom: 0.5rem;
   /* TODO: Adjust the width of the logo on mobile devices here */
 }
 
@@ -1435,7 +1443,7 @@ to keep your styles reusable and consistent.
   }
 
   h1 {
-    font-size: 6rem;
+    font-size: 4.5rem;
   }
 
   h2 {
@@ -1443,7 +1451,11 @@ to keep your styles reusable and consistent.
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
   }
 
   .h1-full-width,
