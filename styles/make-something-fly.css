@@ -41,6 +41,7 @@
   pointer-events: none;
   font-size: 6rem;
   display: none;
+  animation-delay: -4s;
   width: 15rem;
 }
 
