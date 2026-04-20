@@ -9,7 +9,7 @@
   position: relative;
   display: inline-block;
   animation:
-    glitch 1s infinite alternate,
+    glitch 2s infinite alternate,
     flicker 0.5s infinite;
 }
 
