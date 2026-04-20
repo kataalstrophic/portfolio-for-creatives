@@ -1205,7 +1205,7 @@ a.nav-link-primary:hover {
 .col-2,
 .col-4 {
   width: 100%;
-  padding: var(--padding-small);
+  margin-bottom: 2rem;
 }
 
 /* Project image styling */
