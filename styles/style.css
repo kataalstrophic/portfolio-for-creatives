@@ -993,7 +993,7 @@ a.nav-link-primary:hover {
   grid-gap: 3rem; /* Space between grid items */
   padding: var(--padding-small); /* Padding around the grid */
   flex: 1; /* Flex-grow to take up available space */
-  padding: 0.5rem;
+  padding: 0.2rem;
 }
 
 /* Image section in the About page grid */
@@ -1162,7 +1162,7 @@ a.nav-link-primary:hover {
 /* Full-width wrapper for the project section */
 .project-wrapper-full-width {
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.2rem;
 }
 
 /* Container for the project content with full-width display */
@@ -1196,7 +1196,7 @@ a.nav-link-primary:hover {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  padding: var(--padding-small);
+  padding: 0.2rem;
   width: 100%;
   margin-bottom: 1rem; /* Space below the description */
 }
