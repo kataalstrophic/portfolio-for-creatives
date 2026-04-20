@@ -1580,6 +1580,10 @@ to keep your styles reusable and consistent.
     padding-right: 2rem;
   }
 
+  .project-title {
+    font-size: 3.75rem;
+  }
+
   /* Main Project Image Area on Large Devices */
 
   .project-details {
