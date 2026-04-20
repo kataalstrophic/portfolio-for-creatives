@@ -1162,7 +1162,7 @@ a.nav-link-primary:hover {
 /* Full-width wrapper for the project section */
 .project-wrapper-full-width {
   width: 100%;
-  padding: 0.2rem;
+  padding: 0.1rem;
 }
 
 /* Container for the project content with full-width display */
@@ -1196,7 +1196,7 @@ a.nav-link-primary:hover {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 0.2rem;
+  padding: 0.1rem;
   width: 100%;
   margin-bottom: 1rem; /* Space below the description */
 }
