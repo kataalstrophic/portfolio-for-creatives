@@ -165,7 +165,7 @@
   /* Special Elements */
   --color-icon-heart: darkred;
   --color-text-holding-footer: #f8f8ff;
-  --color-bg-selection: rgba(132, 178, 227, 0.5);
+  --color-bg-selection: rgba(150, 115, 255, 0.4);
   --color-shadow-stroke: rgba(0, 0, 0, 0.4);
   /* Assets */
   --image-noise-texture: url(/assets/temp/noise.svg);
